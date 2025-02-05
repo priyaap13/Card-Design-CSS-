@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(190deg, rgb(225, 159, 225), purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    
+    width: 350px;
+    background-color: rgba(26, 23, 40, 0.884);
+    border-radius: 30px;
+    box-shadow:11px 4px 25px rgb(255, 236, 236);
+    padding: 25px 15px;
+}
+
+.circle{
+    height: 160px;
+    width:160px;
+border-radius: 50%;
+margin: auto;
+border: solid 2px purple;
+padding: 10px;
+}
+
+ img {
+    height: 100%;
+    width:100%;
+    border-radius: 50%;
+    
+}
+.name, .loc, .desc{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 8px;
+    font-weight: 400;
+}
+.btngroup{
+    margin-top: 20px;
+   
+    display: flex;
+    justify-content: center; 
+    
+    
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    border: 0px 2px;
+    margin-right: 5px
+    
+}
+.mes{
+    background-color: rgb(202, 111, 202);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.foll{
+    background-color:transparent;
+    color:rgb(202, 111, 202);
+    border: 2px solid;
+    border-radius: 4px;
+} 
+.skill{
+    margin: 15px 0px 5px 0px; 
+    color: white;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills span{
+    padding:2px 10px;
+    color: white;
+    border: 1px solid white;
+    margin: 5px 3px;
+    border-radius: 5px;
+    font-size: small;
+
+}
