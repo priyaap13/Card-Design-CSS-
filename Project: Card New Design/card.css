@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(149deg, rgb(61, 164, 238), rgb(179, 48, 231));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    height:625px ;
+    width: 450px;
+    background-color: rgb(242, 235, 235);
+    border-radius: 23px;
+    padding: 18px;
+}
+
+.brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.brandlogo{
+    height: 40px;
+}
+.cartlogo{
+    height: 35px;
+   color:transparent;
+
+}
+
+.icons{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.product{
+    height: 275px;
+    display: flex;
+    margin: auto;
+    
+}
+
+.product:hover{
+    transform: rotate(-30deg) scale(1.2);
+    transition: ease-in-out(0.2);
+}
+.brandname{
+    font-size: 400;
+}
+.desc{
+    margin-top: 5px;
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.rating{
+    margin-top: 10px;
+    font-size:  25px;
+}
+.addtocart{
+    display:block;
+    height: 50px;
+    width: 350px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, rgb(61, 164, 238), rgb(179, 48, 231));
+    border: none;
+    font-size: larger;
+    color: white;
+}
